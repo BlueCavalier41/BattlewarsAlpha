@@ -1,0 +1,24 @@
+<packdefinitions  version="1.0">
+
+<pack>
+	<packtitle>Two Idiots Pack</packtitle>
+	<packimage>Samplepack.png</packimage>
+	<packformat>Any</packformat>
+	<packkind>Booster</packkind>
+	<packcommoncrit><field>Set</field><eval>IS</eval><data>Base</data></packcommoncrit>
+	<chance>
+		<prob>100</prob>
+		<kind>
+			<qty>1</qty>
+			<crit><field>Rarity</field><eval>IS</eval><data>R</data></crit>
+		</kind>
+		<kind>
+			<qty>3</qty>
+			<crit><field>Rarity</field><eval>IS</eval><data>U</data></crit>
+		</kind>
+		<kind>
+			<qty>7</qty>
+			<crit><field>Rarity</field><eval>IS</eval><data>C</data></crit>
+		</kind>
+	</chance>
+</pack>

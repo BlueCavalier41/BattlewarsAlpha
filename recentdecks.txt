@@ -1,0 +1,2 @@
+RECENTDECK0:Starter_Castle_Army.dek
+RECENTDECK1:Starter_Magic_Forest.dek

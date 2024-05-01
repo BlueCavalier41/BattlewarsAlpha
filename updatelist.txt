@@ -8,7 +8,7 @@ plugins/BattlewarsAlpha/sets/carddata.txt	https://raw.githubusercontent.com/Blue
 images/zonebackgrounds/DeckArea.png	https://dl.dropboxusercontent.com/s/1a4rjwwdz1ptqwj/DeckArea.png	-30452
 images/zonebackgrounds/DeckArea2.png	https://dl.dropboxusercontent.com/s/o771qh06yqo0rbd/DeckArea2.png	-143233
 images/zonebackgrounds/DeckArea3.png	https://dl.dropboxusercontent.com/s/zg6qat3bybk2v10/DeckArea3.png	-132961
-CardImageURLs:	
+CardURLFiles:	
 CardImageURLs1.txt
 
 CardGeneralURLs:

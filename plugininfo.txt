@@ -8,6 +8,10 @@
 	<label>Deck</label>
 	<shuffle>yes</shuffle>
 </deckzone>
+<deckzone>
+	<label>Capital</label>
+	<shuffle>yes</shuffle>
+</deckzone>
 
 <gamezone>
 	<label>Hand</label>

@@ -1,14 +1,13 @@
 BattlewarsAlpha	05-01-24
-plugins/BattlewarsAlpha/version.txt	https://raw.githubusercontent.com/BlueCavalier41/BattlewarsAlpha/main/version.txt	-1
-plugins/BattlewarsAlpha/plugininfo.txt	https://raw.githubusercontent.com/BlueCavalier41/BattlewarsAlpha/main/plugininfo.txt	-1
-plugins/BattlewarsAlpha/uninstall.txt	https://raw.githubusercontent.com/BlueCavalier41/BattlewarsAlpha/main/uninstall.txt	-1
-plugins/BattlewarsAlpha/CardImageURLs1.txt	https://raw.githubusercontent.com/BlueCavalier41/BattlewarsAlpha/main/CardImageURLs1.txt	-1
-plugins/BattlewarsAlpha/sets/cardback.jpg	https://raw.githubusercontent.com/BlueCavalier41/BattlewarsAlpha/main/cardback.jpg	-1
-plugins/BattlewarsAlpha/sets/carddata.txt	https://raw.githubusercontent.com/BlueCavalier41/BattlewarsAlpha/main/carddata.txt	-1
+plugins/BattlewarsAlpha/version.txt	https://raw.githubusercontent.com/BlueCavalier41/BattlewarsAlpha/main/version.txt	32101
+plugins/BattlewarsAlpha/plugininfo.txt	https://raw.githubusercontent.com/BlueCavalier41/BattlewarsAlpha/main/plugininfo.txt	270805
+plugins/BattlewarsAlpha/uninstall.txt	https://raw.githubusercontent.com/BlueCavalier41/BattlewarsAlpha/main/uninstall.txt	4621
+plugins/BattlewarsAlpha/CardImageURLs1.txt	https://raw.githubusercontent.com/BlueCavalier41/BattlewarsAlpha/main/CardImageURLs1.txt	2098357
+plugins/BattlewarsAlpha/sets/cardback.jpg	https://raw.githubusercontent.com/BlueCavalier41/BattlewarsAlpha/main/cardback.jpg	186707
+plugins/BattlewarsAlpha/sets/carddata.txt	https://raw.githubusercontent.com/BlueCavalier41/BattlewarsAlpha/main/carddata.txt	2159802
 images/zonebackgrounds/DeckArea.png	https://dl.dropboxusercontent.com/s/1a4rjwwdz1ptqwj/DeckArea.png	-30452
 images/zonebackgrounds/DeckArea2.png	https://dl.dropboxusercontent.com/s/o771qh06yqo0rbd/DeckArea2.png	-143233
 images/zonebackgrounds/DeckArea3.png	https://dl.dropboxusercontent.com/s/zg6qat3bybk2v10/DeckArea3.png	-132961
-
 CardURLFiles:	
 CardImageURLs1.txt
 

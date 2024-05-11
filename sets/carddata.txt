@@ -1,18 +1,18 @@
 Name	Set	ImageFile	Faction	Type	Subtype	Tech	ATK	DEF	BOM	Effect
 Germanic Warrior	HW1	GermanicWarrior	Germanic	Unit	Melee	0	3	4	-	-
-Germanic Javelineer	HW1	GermanicJavelineer	Germanic	Unit	Melee	0	3	3	1	Germanic Javelineer may only bombard once per game.
+Lusitanian Javelineer	HW1	LusitanianJavelineer	Germanic	Unit	Melee	0	3	3	1	Lusitanian Javelineer may only bombard once per game.
 Swiss Mercenary	HW1	SwissMercenary	Germanic	Unit	Melee	2	5	5	-	Swiss Mercenary gets +3 STR when battling Cavalry units.
 Viking Berserker	HW1	VikingBerserker	Germanic	Unit	Melee	2	6	4	-	If a Viking Berserker’s attack would cause you to conquer a City, that City’s controller discards their hand.
 Welsh Longbowman	HW1	WelshLongbowman	Germanic	Unit	Archer	2	4	7	2	-
 English Siege Tower	HW1	EnglishSiegeTower	Germanic	Unit	Siege	2	2	2	-	Whenever English Siege Tower attacks, you may exhaust any number of Melee units you control. Siege Tower gets +X ATK till end of turn, where X is the combined ATK of all Melee units exhausted this way.
 Dutch Schutterij	HW1	DutchSchutterij	Germanic	Unit	Gunpowder	4	7	11	-	Dutch Schutterij gets +2 DEF when defending a City with a Barricade.
-Dutch Musketeer	HW1	DutchMusketeer	Germanic	Unit	Gunpowder	4	10	10	-	-
+Holy Roman Landsknecht	HW1	HolyRomanLandsknecht	Germanic	Unit	Gunpowder Melee	4	9	9	-	Holy Roman Landsknecht gets +3 STR when battling Cavalry units. Ignore all bonuses that units fighting Holy Roman Landsknecht would gain from battling Melee or Gunpowder units.
 English Cannon	HW1	EnglishCannon	Germanic	Unit	Gunpowder Siege	4	2	2	5	Z: Destroy target Barricade.
 English Redcoat	HW1	EnglishRedcoat	Germanic	Unit	Gunpowder	6	14	14	-	-
 US Minuteman	HW1	USMinuteman	Germanic	Unit	Gunpowder	6	13	13	-	Guerrilla
 Swedish Artillery	HW1	SwedishArtillery	Germanic	Unit	Gunpowder Siege	6	2	2	7	Z: Destroy target Barricade.
 British Proto Tank	HW1	BritishProtoTank	Germanic	Unit	Armor	7	20	20	-	Immune to Melee, Archer, and Cavalry units. When this unit attacks, it can’t be unexhausted during your next turn.
-British Paratrooper	HW1	BritishParatrooper	Germanic	Unit	Gunpowder	8	24	24	-	When a Plane you control attacks, if you control a Germanic City, you may deploy British Paratrooper. As long as you control a Plane, British Paratrooper has Guerrilla.
+US Bazooka	HW1	USBazooka	Germanic	Unit	Gunpowder	8	23	22	-	+10 STR when battling Armor units.
 German Panzer	HW1	GermanPanzer	Germanic	Unit	Armor	8	30	25	-	Charge. Immune to Melee, Archer, and Cavalry units.
 German Howitzer	HW1	GermanHowitzer	Germanic	Unit	Gunpowder Siege	8	2	2	12	Z: Destroy target Barricade.
 Viking Longship	HW1	VikingLongship	Germanic	Naval	Ship	1	2	2	-	If your opponent controls no Ships, Viking Longship can attack unoccupied Cities.
@@ -40,14 +40,14 @@ Portuguese Arquebusier	HW1	PortugueseArquebusier	Latin	Unit	Gunpowder	4	9	10	-	P
 French Cannon	HW1	FrenchCannon	Latin	Unit	Gunpowder Siege	4	2	2	5	Z: Destroy target Barricade.
 Napoleonic Square	HW1	NapoleonicSquare	Latin	Unit	Gunpowder	6	13	14	-	Napoleonic Square gets +3 STR when battling Cavalry units.
 Napoleonic Cuirassier	HW1	NapoleonicCuirassier	Latin	Unit	Gunpowder Cavalry	6	13	11	-	Charge. Ignore all bonuses that units fighting Napoleonic Cuirassier would gain from battling Cavalry units.
-Napoleonic Battery	HW1	NapoleonicBattery	Latin	Unit	Gunpowder Siege	6	2	2	6	Z: Destroy target Barricade.
+Argentine Gaucho	HW1	ArgentineGaucho	Latin	Unit	Gunpowder Cavalry	6	12	12	-	Charge. Guerilla. At the end of your turn, you may discard a card to return Argentine Gaucho to your hand.
 French Modern Infantry	HW1	FrenchModernInfantry	Latin	Unit	Gunpowder	8	23	24	-	If French Modern Infantry would be destroyed, shuffle it into its owner’s deck instead.
 Italian Tank	HW1	ItalianTank	Latin	Unit	Armor	8	28	24	-	At the beginning of your turn, flip a coin. If tails, destroy Italian Tank. Immune to Melee, Archer, and Cavalry units.
 Athenian Trireme	HW1	AthenianTrireme	Latin	Naval	Ship	0	3	3	1	-
 Roman Quinquereme	HW1	RomanQuinquereme	Latin	Naval	Ship	1	4	4	-	Destroy Roman Quinquereme: Destroy all Ships battling Roman Quinquereme with STR 8 or less.
 Venetian Cog	HW1	VenetianCog	Latin	Naval	Ship	2	5	5	1	-
 Byzantine Dromon	HW1	ByzantineDromon	Latin	Naval	Ship	2	8	8	-	-
-Portuguese Caravel	HW1	PortugueseCaravel	Latin	Naval	Ship	3	9	9	2	Charge. When you deploy Portuguese Caravel, search your deck for a non-Latin City and put it into play. Shuffle afterwards.
+Portuguese Caravel	HW1	PortugueseCaravel	Latin	Naval	Ship	3	9	9	2	Charge. When you deploy Portuguese Caravel, search your deck for a non-Latin City. Shuffle your deck and put that card on top of it.
 Spanish Galleon	HW1	SpanishGalleon	Latin	Naval	Ship	4	12	12	6	-
 Portuguese Frigate	HW1	PortugueseFrigate	Latin	Naval	Ship	6	15	15	7	-
 French Ironclad	HW1	FrenchIronclad	Latin	Naval	Ship	7	21	21	-	-
@@ -56,15 +56,15 @@ French Entente Fighter	HW1	FrenchEntenteFighter	Latin	Unit	Plane	7	20	20	9	Frenc
 Italian Regia Aeronautica	HW1	ItalianRegiaAeronautica	Latin	Unit	Plane	8	24	24	10	Italian Regia Aeronautica can't bombard Armor or Ship units.
 Slavic Footman	HW1	SlavicFootman	Slavic	Unit	Melee	0	3	3	-	-
 Slavic Nomad	HW1	SlavicNomad	Slavic	Unit	Cavalry	0	4	2	-	-
-Bulgarian Shield Bearer	HW1	BulgarianShieldBearer	Slavic	Unit	Melee	2	1	7	-	Bulgarian Shield Bearer can't be bombarded against by non-Gunpowder units. Z: Target can’t be bombarded against this turn by non-Gunpowder units.
-Bulgarian Light Cavalry	HW1	BulgarianLightCavalry	Slavic	Unit	Cavalry	2	7	4	-	Charge
+Kievan Druzhyna	HW1	KievanDruzhyna	Slavic	Unit	Cavalry	2	6	4	-	Charge. Other non-Cavalry units in the same City as Kievan Druzhyna gain +1 DEF.
+Bulgarian Konnik	HW1	BulgarianKonnik	Slavic	Unit	Cavalry	2	7	4	-	Charge
 Bulgarian Catapult	HW1	BulgarianCatapult	Slavic	Unit	Siege	2	2	2	-	Z: Destroy target Barricade.
 Hungarian Black Army	HW1	HungarianBlackArmy	Slavic	Unit	Gunpowder	3	9	9	-	-
 Muscovite Pishal'niki	HW1	MuscovitePishalniki	Slavic	Unit	Gunpowder	4	10	10	-	-
 Albanian Lezhe League	HW1	AlbanianLezheLeague	Slavic	Unit	Gunpowder	4	9	10	-	Albanian Lezhe League gets +2 DEF if the attacking player controls more Cities than you.
 Hungarian Hussar	HW1	HungarianHussar	Slavic	Unit	Cavalry	4	8	7	-	Charge. Hungarian Hussar gets +4 STR when battling Cavalry units.
 Polish Winged Hussar	HW1	PolishWingedHussar	Slavic	Unit	Gunpowder Cavalry	4	9	8	-	Charge
-Russian Leib Guard	HW1	RussianLeibGuard	Slavic	Unit	Gunpowder	6	13	15	-	-
+Bulgarian Opalchentsi	HW1	BulgarianOpalchentsi	Slavic	Unit	Gunpowder	6	12	14	-	Whenever a Slavic City you control is conquered, you may return Bulgarian Opalchentsi from your discard pile to your hand.
 Russian Cossack	HW1	RussianCossack	Slavic	Unit	Gunpowder Cavalry	6	13	11	-	Charge. When you deploy Russian Cossack, you may search your deck for any number of Russian Cossacks and put them in your hand. Shuffle afterwards.
 Russian Standard Infantry	HW1	RussianStandardInfantry	Slavic	Unit	Gunpowder	7	17	18	-	When you deploy Russian Standard Infantry, you may search your deck for any number of Russian Standard Infantry and put them in your hand. Shuffle afterwards.
 Soviet Partisan	HW1	SovietPartisan	Slavic	Unit	Gunpowder	8	22	24	-	When you deploy Soviet Partisan, you may search your deck for any number of Soviet Partisans and put them in your hand. Shuffle afterwards.
@@ -74,7 +74,7 @@ Volga War Barge	HW1	VolgaWarBarge	Slavic	Naval	Ship	1	2	2	-	Z: Target Land unit 
 Russian Fireship	HW1	RussianFireship	Slavic	Naval	Ship	5	8	8	-	When Russian Fireship battles another Ship, you may kill Russian Fireship and all Ships battling it.
 Soviet Nuclear Submarine	HW1	SovietNuclearSubmarine	Slavic	Naval	Submarine	8	26	26	-	Soviet Nuclear Submarine can't be bombarded. +10 STR when battling Ships.
 Soviet VVS Fighter	HW1	SovietVVSFighter	Slavic	Unit	Plane	8	24	24	10	Soviet VVS Fighter gets +2 STR when defending. Can't bombard Armor or Ship units.
-Soviet Night Witch	HW1	SovietNightWitch	Slavic	Unit	Plane	8	18	18	15	Z: Destroy target Barricade or Monument. Soviet Night Witch can't bombard Plane units. Soviet Night Witch can't be attacked and can't garrison Cities.
+Soviet Night Witch	HW1	SovietNightWitch	Slavic	Unit	Plane	8	18	18	15	Z: Destroy target Barricade or Monument. Soviet Night Witch can't bombard Plane units. If your opponent has no Planes, Soviet Night Witch may attack your opponent’s Capital.
 Horatio Nelson	HW1	HoratioNelson	Germanic	General	-	-	-	-	-	Ship Units have Charge.
 Henry V	HW1	HenryV	Germanic	General	-	-	-	-	-	Archers may use their DEF instead of their ATK when attacking
 Gustavus Adolphus	HW1	GustavusAdolphus	Germanic	General	-	-	-	-	-	Siege Units get Bombard 2
@@ -123,7 +123,7 @@ Caltrops	HW1	Caltrops	-	Barricade	-	-	-	-	-	Destroy a Cavalry unit attacking thi
 Barracks	HW1	Barracks	-	Barricade	-	-	-	-	-	Units in your hand have Guerrilla as long as they defend this City.
 Castle	HW1	Castle	-	Barricade	-	-	-	-	-	Units defending this city get +3 DEF when battling Melee, Archer, and Cavalry units. If this City would be conquered, destroy this Barricade instead.
 Fortress	HW1	Fortress	-	Barricade	-	-	-	-	-	Treat Fortress as a City that can’t deploy units and can’t have Barricades or Monuments. Opponents can’t attack non-Fortress Cities you control. Units defending Fortress get +2 DEF.
-Naval Mine	HW1	NavalMine	-	Barricade	-	-	-	-	-	Destroy any attacking Ship or Submarine.
+Naval Mine	HW1	NavalMine	-	Barricade	-	-	-	-	-	Destroy any attacking Ship or Submarine and Naval Mine.
 Land Mine	HW1	LandMine	-	Barricade	-	-	-	-	-	Destroy a unit attacking this City and Land Mine.
 London	HW1	London	Germanic	City	-	-	-	-	-	London can’t be attacked if you control a Ship, Submarine, or Plane and the attacking player doesn’t.
 Berlin	HW1	Berlin	Germanic	City	-	-	-	-	-	Units in Berlin get +X ATK where X is the number of Generals you control divided by two and rounded down.
@@ -137,7 +137,7 @@ Rome	HW1	Rome	Latin	City	-	-	-	-	-	Whenever you conquer a city, draw a card.
 Athens	HW1	Athens	Latin	City	-	-	-	-	-	Whenever you play an Event, put a philosophy counter on Athens. +X Tech Points where X is the number of philosophy counters on Athens divided by three and rounded down.
 Constantinople	HW1	Constantinople	Latin	City	-	-	-	-	-	Units defending Constantinople get +X DEF where X is the number of Barricades in Constantinople divided by two and rounded down.
 Paris	HW1	Paris	Latin	City	-	-	-	-	-	Whenever a Monument is built in Paris, draw a card.
-Madrid	HW1	Madrid	Latin	City	-	-	-	-	-	Once per turn, if you’ve played a Political Event this game, you may search your deck for a Unit card and put it on top of your deck. Shuffle afterwards.
+Madrid	HW1	Madrid	Latin	City	-	-	-	-	-	Units get +1 ATK when battling unis with less Tech.
 Lisbon	HW1	Lisbon	Latin	City	-	-	-	-	-	When you deploy Lisbon, search your deck for a Ship and put it in your hand. Shuffle afterwards.
 Granada	HW1	Granada	Latin	City	-	-	-	-	-	Units defending Granada get +X DEF where X the number of Monuments in Granada.
 Venice	HW1	Venice	Latin	City	-	-	-	-	-	+X Hand Size where X is the number of Ships you control divided by three and rounded down.
@@ -147,10 +147,10 @@ Preslav	HW1	Preslav	Slavic	City	-	-	-	-	-	When you deploy Preslav, search your d
 Budapest	HW1	Budapest	Slavic	City	-	-	-	-	-	When you deploy Budapest, search your deck for a Political Event and put it in your hand. Shuffle afterwards.
 Krakow	HW1	Krakow	Slavic	City	-	-	-	-	-	When you deploy Krakow, you may search your deck for up to one non-Slavic Unit and put it in your hand. Shuffle afterwards.
 Vilnius	HW1	Vilnius	Slavic	City	-	-	-	-	-	Cities you control acquire all factions of all other Cities you control.
-Stalingrad	HW1	Stalingrad	Slavic	City	-	-	-	-	-	If you’ve played a Political Event this game, units defending Stalingrad get +2 DEF.
+Kiev	HW1	Kiev	Slavic	City	-	-	-	-	-	Once per turn, you may discard a Cavalry to draw a card.
 Tarnovo	HW1	Tarnovo	Slavic	City	-	-	-	-	-	Cavalry units get +1 ATK.
 Ainu Hunter	HW2	AinuHunter	Far East	Unit	Melee	0	2	4	-	When Ainu Hunter is deployed, until the end of the turn, up to one target unit loses -1 DEF
-Zhou Cavalry	HW2	ZhouCavalry	Far East	Unit	Cavalry	0	5	2	-	-
+Zhou Chariot	HW2	ZhouChariot	Far East	Unit	Cavalry	0	5	2	-	-
 Chinese Fire Bowman	HW2	ChineseFireBowman	Far East	Unit	Archer	1	3	5	1	Z: Destroy target Siege or Ship with Tech 2 or less
 Japanese Samurai	HW2	JapaneseSamurai	Far East	Unit	Melee	2	7	7	-	-
 Chinese Lang Bing	HW2	ChineseLangBing	Far East	Unit	Melee	2	6	5	-	When Chinese Lang Bing battles a unit, put a -1 STR counter on that unit
@@ -176,20 +176,20 @@ Japanese Akizuki	HW2	JapaneseAkizuki	Far East	Naval	Ship	8	26	26	9	+10 STR when 
 Japanese Kidou Butai	HW2	JapaneseKidouButai	Far East	Naval	Ship	8	25	25	0	You may place Planes on Japanese Kidou Butai as if it were a City. +5 STR when defending.
 Japanese Kamikaze	HW2	JapaneseKamikaze	Far East	Unit	Plane	8	24	24	10	Can attack Naval. Destroy Japanese Kamikaze: Destroy target Ship or Plane. Can’t bombard Armor or Ship units.
 Qin Shi Huangdi	HW2	QinShiHuangdi	Far East	General	-	-	-	-	-	If you have more Cities than any other player, you may play an additional Far East unit.
-Oda Nobunaga	HW2	OdaNobunaga	Far East	General	-	-	-	-	-	You may use an opponent’s Tech value when deploying Far East Gunpowder units with no other type.
+Oda Nobunaga	HW2	OdaNobunaga	Far East	General	-	-	-	-	-	You may use an opponent’s Tech value when deploying Gunpowder units with no other type.
 Tran Hung Dao	HW2	TranHungDao	Far East	General	-	-	-	-	-	Units get +2 DEF if the attacking player has more Cities than you.
 Yi Sun Sin	HW2	YiSunSin	Far East	General	-	-	-	-	-	Ships get +2 STR when defending.
 Confucius	HW2	Confucius	Far East	Event	-	-	-	-	-	If you have three or more Cities, gain an additional Tech Point. You may only play one Confucius per turn.
-Ninja	HW2	Ninja	Far East	Event	-	-	-	-	-	Either destroy target General or destroy target Unit in a Capital. Shuffle Ninja into your Deck.
+Ninja	HW2	Ninja	Far East	Event	-	-	-	-	-	Either destroy target General or destroy target non-Armor, non-Plane Unit in a Capital.
 Bushido	HW2	Bushido	Far East	Event	-	-	-	-	-	Destroy a Unit you control to give all other units you control +3 ATK till end of turn.
 Great Leap Forward	HW2	GreatLeapForward	Far East	Political Event	-	-	-	-	-	Discard your hand. For the rest of the game, you have +1 Hand Size and Units you control get +1 DEF if you have more Cities than any other player.
 Great Wall	HW2	GreatWall	Far East	Monument	-	-	-	-	-	Choose a player. That player cannot attack you with Cavalry units. Cannot be built in your capital.
 Grand Canal	HW2	GrandCanal	Far East	Monument	-	-	-	-	-	If you control a Ship, you may move units to different Cities you control at any time.
 Porcelain Tower	HW2	PorcelainTower	Far East	Monument	-	-	-	-	-	At the start of your turn choose one you haven’t already chosen: 1** Search your deck for a Chinese Shenjiying and put it in your hand. Shuffle afterwards. 2** Return a General from your discard pile to your hand. 3** Ships get +1 BOM and Charge till end of turn. 4** Draw a card.
 Himeji Castle	HW2	HimejiCastle	Far East	Monument	-	-	-	-	-	When you deploy Himeji Castle, search your Deck for a Ninja and put it in your hand. Shuffle afterwards. Melee units defending this City get +2 DEF
-Beijing	HW2	Beijing	Far East	City	-	-	-	-	-	You may deploy an additional City each turn.
+Beijing	HW2	Beijing	Far East	City	-	-	-	-	-	Instead of deploying a City during your City Building phase, you may deploy two Far East Cities.
 Nanjing	HW2	Nanjing	Far East	City	-	-	-	-	-	When you deploy Nanjing, search your deck for a Monument and a Ship. Shuffle your deck and put those cards on top of it.
-Qufu	HW2	Qufu	Far East	City	-	-	-	-	-	When a Unit you control is destroyed, you may attach it to Qufu instead of discarding it. If there are 3 or more units attached to Qufu, +1 Tech Point.
+Qufu	HW2	Qufu	Far East	City	-	-	-	-	-	Whenever a Unit you control dies, put a philosophy counter on Qufu. +X Tech Points where X is the number of philosophy counters on Qufu divided by three and rounded down.
 Tokyo	HW2	Tokyo	Far East	City	-	-	-	-	-	Once per turn, you may discard an Event to search your deck for a General or Ship and put it in your hand. Shuffle afterwards.
 Himeji	HW2	Himeji	Far East	City	-	-	-	-	-	When you deploy Himeji, search your deck for a Monument and deploy it in Himeji. Shuffle afterwards.
 Seoul	HW2	Seoul	Far East	City	-	-	-	-	-	Ships you control get +1 STR when defending.

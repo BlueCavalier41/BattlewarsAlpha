@@ -1,6 +1,6 @@
 <version>
 
-<lastupdateYYMMDD>240501</lastupdateYYMMDD>
+<lastupdateYYMMDD>240511</lastupdateYYMMDD>
 <quality>HIGH</quality>
 <versionurl>https://raw.githubusercontent.com/BlueCavalier41/BattlewarsAlpha/main/version.txt</versionurl>
 <updateurl>https://raw.githubusercontent.com/BlueCavalier41/BattlewarsAlpha/main/updatelist.txt</updateurl>

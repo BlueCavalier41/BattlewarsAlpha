@@ -111,7 +111,7 @@ Brandenburg Gate	HW1	BrandenburgGate	Germanic	Monument	-	-	-	-	-	Units you contr
 Oxford University	HW1	OxfordUniversity	Germanic	Monument	-	-	-	-	-	+1 Tech Point
 The Colosseum	HW1	TheColosseum	Latin	Monument	-	-	-	-	-	At the beginning of your turn, you may search your deck for a Melee unit and put it in your hand. Shuffle afterwards.
 Eiffel Tower	HW1	EiffelTower	Latin	Monument	-	-	-	-	-	Whenever an opponent plays an Event, copy that Event under your control.
-Alhambra	HW1	Alhambra	Latin	Monument	-	-	-	-	-	Units defending this city get +2 DEF
+Versailles	HW1	Versailles	Latin	Monument	-	-	-	-	-	Events and Generals you control can’t be targeted by your opponent’s card effects.
 The Parthenon	HW1	TheParthenon	Latin	Monument	-	-	-	-	-	The first time you play an Event each turn, draw a card.
 The Kremlin	HW1	TheKremlin	Slavic	Monument	-	-	-	-	-	Opponents play with their hands face up. At the beginning of your turn you may look at the top card of your opponent’s deck. You may choose to put that card in their discard pile.
 The Hermitage	HW1	TheHermitage	Slavic	Monument	-	-	-	-	-	Once per turn, instead of drawing a card, you may search your deck for an Event and put it in your hand. Shuffle afterwards.
@@ -137,9 +137,9 @@ Rome	HW1	Rome	Latin	City	-	-	-	-	-	Whenever you conquer a city, draw a card.
 Athens	HW1	Athens	Latin	City	-	-	-	-	-	Whenever you play an Event, put a philosophy counter on Athens. +X Tech Points where X is the number of philosophy counters on Athens divided by three and rounded down.
 Constantinople	HW1	Constantinople	Latin	City	-	-	-	-	-	Units defending Constantinople get +X DEF where X is the number of Barricades in Constantinople divided by two and rounded down.
 Paris	HW1	Paris	Latin	City	-	-	-	-	-	Whenever a Monument is built in Paris, draw a card.
+Orleans	HW1	Orleans	Latin	City	-	-	-	-	-	Units defending this City gain +2 DEF if there is a face-up Barricade in this City.
 Madrid	HW1	Madrid	Latin	City	-	-	-	-	-	Units get +1 ATK when battling unis with less Tech.
 Lisbon	HW1	Lisbon	Latin	City	-	-	-	-	-	When you deploy Lisbon, search your deck for a Ship and put it in your hand. Shuffle afterwards.
-Granada	HW1	Granada	Latin	City	-	-	-	-	-	Units defending Granada get +X DEF where X the number of Monuments in Granada.
 Venice	HW1	Venice	Latin	City	-	-	-	-	-	+X Hand Size where X is the number of Ships you control divided by three and rounded down.
 Moscow	HW1	Moscow	Slavic	City	-	-	-	-	-	Units defending Moscow get +1 DEF.
 St. Petersburg	HW1	StPetersburg	Slavic	City	-	-	-	-	-	When you deploy St. Petersburg, search your deck for a General and an Event. Shuffle your deck and put those cards on top of it.

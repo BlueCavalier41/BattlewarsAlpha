@@ -4,6 +4,6 @@
 <quality>HIGH</quality>
 <versionurl>https://raw.githubusercontent.com/BlueCavalier41/BattlewarsAlpha/main/version.txt</versionurl>
 <updateurl>https://raw.githubusercontent.com/BlueCavalier41/BattlewarsAlpha/main/updatelist.txt</updateurl>
-<message>Double Strike is OP!</message>
+<message>Soviet Night Witch is my waifu.</message>
 
 </version>
